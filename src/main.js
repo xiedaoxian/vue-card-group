@@ -2,8 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import CardGroup from './components/card-group/card-group.vue';
 
 Vue.config.productionTip = false
+
+Vue.component("CardGroup", CardGroup);
 
 /* eslint-disable no-new */
 new Vue({
