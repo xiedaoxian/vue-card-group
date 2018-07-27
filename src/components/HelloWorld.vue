@@ -80,7 +80,16 @@
         </a>
       </li>
     </ul>
-  </div>
+        <card-group>
+            <p slot="title">
+                头部
+            </p>
+            <p>
+                卡片内容：
+                <input/>
+            </p>
+        </card-group>
+    </div>
 </template>
 
 <script>
